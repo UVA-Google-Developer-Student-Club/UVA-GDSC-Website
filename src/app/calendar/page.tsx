@@ -1,4 +1,4 @@
-import { Navbar } from "@/components";
+import { Navbar, Calendar } from "@/components";
 
 export default function Page() {
     return (
@@ -8,7 +8,7 @@ export default function Page() {
             <br></br>
             <br></br>
             <br></br>
-            <h1>Calendar Page</h1>
+            <Calendar />
         </div>    
     )
 }

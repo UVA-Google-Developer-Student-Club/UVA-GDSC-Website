@@ -8,5 +8,4 @@ export * from "./other-book-offers";
 export * from "./carousel-features";
 export * from "./back-to-school-books";
 export * from "./get-your-book-from-us";
-
-
+export * from "./calendar";
