@@ -42,7 +42,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button color="gray">
+                <Button variant="outlined" color="gray-400">
                   Join Our Mailing List
                 </Button>
               </a>
