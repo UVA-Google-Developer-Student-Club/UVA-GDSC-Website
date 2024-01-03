@@ -2,10 +2,11 @@ import { Typography, Button } from "@material-tailwind/react";
 import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons CSS
 
 const LINKS = [
-  { name: "Instagram", icon: "bi-instagram" },
-  { name: "LinkedIn", icon: "bi-linkedin" },
-  { name: "YouTube", icon: "bi-youtube" },
-  { name: "Discord", icon: "bi-discord" },
+  { name: "Google", icon: "bi-google", url: "https://gdsc.community.dev/university-of-virginia/" },
+  { name: "YouTube", icon: "bi-youtube", url: "https://www.youtube.com/channel/UCpTxyXosssU1Ba2H0vkhc8A" },
+  { name: "Instagram", icon: "bi-instagram", url: "https://www.instagram.com/uvagoogledsc/" },
+  { name: "LinkedIn", icon: "bi-linkedin", url: "https://www.linkedin.com/company/uvadsc/about/" },
+  { name: "Discord", icon: "bi-discord", url: "https://www.discord.com" },
 ];
 const CURRENT_YEAR = new Date().getFullYear();
 
@@ -21,7 +22,9 @@ export function Footer() {
             {LINKS.map((link) => (
               <li key={link.name}>
                 <a
-                  href="#"
+                  href={link.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center py-1 font-medium !text-gray-700 transition-colors hover:!text-gray-900 px-6"
                 >
                   <i className={link.icon}></i>
