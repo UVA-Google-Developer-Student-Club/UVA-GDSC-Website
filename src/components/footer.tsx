@@ -47,11 +47,11 @@ export function Footer() {
           <ul className="flex items-center">
             <div className="flex flex-col gap-3 sm:flex-row">
               {/* @ts-ignore */}
-              <Button color="gray" className="flex-shrink-0">
-                <a target="_blank" href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info" style={{backgroundColor: 'transparent', padding: '10px 20px', textDecoration: 'none', color: 'white'}}>
+              <a href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info" target="_blank" rel="noopener noreferrer">
+                <Button color="gray" className="flex-shrink-0">
                   Join Our Mailing List
-                </a>              
-              </Button>
+                </Button>
+              </a>
             </div>
           </ul>
         </div>
