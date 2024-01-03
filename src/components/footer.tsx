@@ -14,7 +14,7 @@ export function Footer() {
   return (
     <footer>
       <div className="container mx-auto">
-        <div className="flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
+        <div className="flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 ">
           <Typography className="text-center font-normal !text-gray-700">
             &copy; {CURRENT_YEAR} UVA Google Developer Student Club
           </Typography>
