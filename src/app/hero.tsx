@@ -106,11 +106,11 @@ function Hero() {
             />
             <p className="text-white">Join the GDSC family of 250+ members</p>
             <div className="flex items-center gap-4 mt-4 mb-36">
-              <Button variant="gradient" color="white">
-                <a target="_blank" href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info" style={{backgroundColor: 'transparent', padding: '10px 20px', textDecoration: 'none', color: 'black'}}>
+              <a href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info" target="_blank" rel="noopener noreferrer">
+                <Button variant="gradient" color="white">
                   Join Our Mailing List
-                </a>     
-              </Button>
+                </Button>
+              </a>
             </div>
           </div>
         </div>
