@@ -36,45 +36,23 @@ export function Footer() {
             </ul>
           </div>
           <div className="w-full sm:w-[24rem] sm:min-w-[24rem]">
-            <Typography variant="h6" color="blue-gray" className="mb-3">
-              Our Newsletter
-            </Typography>
-            <div className="flex flex-col gap-3 sm:flex-row">
-              {/* @ts-ignore */}
-              <Input color="gray" label="Enter your email" />
-              <Button color="gray" className="flex-shrink-0">
-                subscribe
-              </Button>
-            </div>
+            
           </div>
         </div>
         <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
           <Typography className="text-center font-normal !text-gray-700">
-            &copy; {CURRENT_YEAR} Made with{" "}
-            <a href="https://www.material-tailwind.com" target="_blank">
-              Material Tailwind
-            </a>{" "}
-            by{" "}
-            <a href="https://www.creative-tim.com" target="_blank">
-              Creative Tim
-            </a>
-            .
+            &copy; {CURRENT_YEAR} UVA Google Developer Student Club
           </Typography>
 
           <ul className="flex items-center">
-            {SUB_LINKS.map((link, idx) => (
-              <li key={link}>
-                <Typography
-                  as="a"
-                  href="#"
-                  className={`py-1 font-normal !text-gray-700 transition-colors hover:!text-gray-900 ${
-                    idx === SUB_LINKS.length - 1 ? "pl-2" : "px-2"
-                  }`}
-                >
-                  {link}
-                </Typography>
-              </li>
-            ))}
+            <div className="flex flex-col gap-3 sm:flex-row">
+              {/* @ts-ignore */}
+              <Button color="gray" className="flex-shrink-0">
+                <a target="_blank" href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info" style={{backgroundColor: 'transparent', padding: '10px 20px', textDecoration: 'none', color: 'white'}}>
+                  Join Our Mailing List
+                </a>              
+              </Button>
+            </div>
           </ul>
         </div>
       </div>

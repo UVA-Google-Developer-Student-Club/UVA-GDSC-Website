@@ -1,4 +1,4 @@
-import { Navbar } from "@/components";
+import { Navbar, Footer } from "@/components";
 import GetYourBookFromUs from "../get-your-book-from-us";
 
 export default function Page() {
@@ -10,6 +10,7 @@ export default function Page() {
             <br></br>
             <br></br>
             <GetYourBookFromUs />
+            <Footer />
         </div>    
     )
 }
