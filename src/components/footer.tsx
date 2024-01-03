@@ -6,7 +6,7 @@ const LINKS = [
   { name: "YouTube", icon: "bi-youtube", url: "https://www.youtube.com/channel/UCpTxyXosssU1Ba2H0vkhc8A" },
   { name: "Instagram", icon: "bi-instagram", url: "https://www.instagram.com/uvagoogledsc/" },
   { name: "LinkedIn", icon: "bi-linkedin", url: "https://www.linkedin.com/company/uvadsc/about/" },
-  { name: "Discord", icon: "bi-discord", url: "https://www.discord.com" },
+  { name: "Discord", icon: "bi-discord", url: "https://discord.gg/mDc8jqWnR2" },
 ];
 const CURRENT_YEAR = new Date().getFullYear();
 
