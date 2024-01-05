@@ -40,7 +40,7 @@ function Hero() {
           src="/image/lecture_no_screen_low_message.png"
           alt="gdsclogo"
           style={{ height: "40%" }}
-          className="animate-fade-up animate-duration-[2000ms] animate-delay-500 animate-ease-linear absolute bottom-0 right-10"
+          className="animate-fade-up animate-duration-[2000ms] animate-delay-500 animate-ease-linear absolute bottom-0 right-10 block hidden sm:hidden md:hidden lg:block xl:block 2xl:block"
         />
 
         {/* <img

@@ -1,11 +1,27 @@
 import { Typography, Button } from "@material-tailwind/react";
-import 'bootstrap-icons/font/bootstrap-icons.css'; // Import Bootstrap Icons CSS
+import "bootstrap-icons/font/bootstrap-icons.css"; // Import Bootstrap Icons CSS
 
 const LINKS = [
-  { name: "Google", icon: "bi-google", url: "https://gdsc.community.dev/university-of-virginia/" },
-  { name: "YouTube", icon: "bi-youtube", url: "https://www.youtube.com/channel/UCpTxyXosssU1Ba2H0vkhc8A" },
-  { name: "Instagram", icon: "bi-instagram", url: "https://www.instagram.com/uvagoogledsc/" },
-  { name: "LinkedIn", icon: "bi-linkedin", url: "https://www.linkedin.com/company/uvadsc/about/" },
+  {
+    name: "Google",
+    icon: "bi-google",
+    url: "https://gdsc.community.dev/university-of-virginia/",
+  },
+  {
+    name: "YouTube",
+    icon: "bi-youtube",
+    url: "https://www.youtube.com/channel/UCpTxyXosssU1Ba2H0vkhc8A",
+  },
+  {
+    name: "Instagram",
+    icon: "bi-instagram",
+    url: "https://www.instagram.com/uvagoogledsc/",
+  },
+  {
+    name: "LinkedIn",
+    icon: "bi-linkedin",
+    url: "https://www.linkedin.com/company/uvadsc/about/",
+  },
   { name: "Discord", icon: "bi-discord", url: "https://discord.gg/mDc8jqWnR2" },
 ];
 const CURRENT_YEAR = new Date().getFullYear();

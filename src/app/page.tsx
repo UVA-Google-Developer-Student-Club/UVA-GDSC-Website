@@ -1,5 +1,6 @@
 // components
-import { Navbar, Footer } from "@/components";
+import { Navbar } from "@/components";
+import { HomeFooter } from "@/components";
 
 // sections
 import Hero from "./hero";
@@ -20,7 +21,7 @@ export default function Campaign() {
       <OtherBookOffers />
       <CarouselFeatures />
       <Faq /> */}
-      <Footer />
+      <HomeFooter />
     </>
   );
 }
