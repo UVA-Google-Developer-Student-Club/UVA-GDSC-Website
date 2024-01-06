@@ -1,4 +1,4 @@
-import { Navbar } from "@/components";
+import { Navbar, Footer } from "@/components";
 import ProjectSection from "../project_section";
 
 export default function Page() {
@@ -10,6 +10,7 @@ export default function Page() {
       <br></br>
       <br></br>
       <ProjectSection />
+      <Footer />
     </div>
   );
 }

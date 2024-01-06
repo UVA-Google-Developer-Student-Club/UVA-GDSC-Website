@@ -9,7 +9,6 @@ import {
   Tab,
 } from "@material-tailwind/react";
 import BookCard from "@/components/project-card";
-import { Footer } from "@/components";
 
 const PROJECTS = [
   {
@@ -86,7 +85,6 @@ export function ProjectSection() {
           Show more
         </Button>
       </div> */}
-      <Footer />
     </section>
   );
 }
