@@ -70,24 +70,23 @@ const FEATURES = [
 
 export function GetYourBookFromUs() {
   return (
-    <section className="mt-8 px-8">
-      <div className="container mx-auto mb-16 text-center">
+    <section className="mt-8 px-8 max-w-[1200px] mx-auto">
+      <div className="container mx-auto mb-8 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
           Club Executives
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-5/12"
+          className="mx-auto w-full px-4 text-gray-500 lg:w-5/6"
         >
-          Meet the team that runs and organizes the Google Developer Student
-          Club at UVA!
+          Meet the team that runs and organizes the Google Developer Student Club at UVA!
         </Typography>
       </div>
-      <div className="container mx-auto grid grid-cols-1 gap-y-12 md:grid-cols-2 lg:grid-cols-3">
+      <div className="container mx-auto grid grid-cols-1 gap-y-8 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map(({ icon, title, role, description }) => (
           <FeatureCard key={title} icon={icon} title={title}>
             <strong>{role}</strong>
-            <br></br>
+            <br />
             {description}
           </FeatureCard>
         ))}
