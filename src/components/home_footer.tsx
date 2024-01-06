@@ -32,12 +32,12 @@ export function HomeFooter() {
       <div className="container mx-auto">
         <div className="grid items-center justify-center gap-y-4 gap-x-8 border-blue-gray-50 py-6 xl:justify-between grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
           <div className="col-span-1">
-            <Typography className="text-center font-normal !text-white/40">
+            <Typography className="text-center font-normal !text-white/40 whitespace-nowrap">
               &copy; {CURRENT_YEAR} UVA Google Developer Student Club
             </Typography>
           </div>
           <div className="col-span-1">
-            <ul className="flex flex-wrap items-center justify-center ">
+            <ul className="flex items-center justify-center ">
               {LINKS.map((link) => (
                 <li key={link.name}>
                   <a
