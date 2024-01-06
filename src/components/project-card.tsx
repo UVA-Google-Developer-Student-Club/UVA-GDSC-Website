@@ -62,7 +62,7 @@ export function BookCard({
         >
           {date}
         </Typography>
-        <a href={link}>
+        <a href={link} target="_blank">
           <Typography
             variant="h5"
             color="blue-gray"
