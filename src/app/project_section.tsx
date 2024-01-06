@@ -18,6 +18,7 @@ const PROJECTS = [
       "Training an Image Classification Model to Classify Fashion Items using TensorFlow",
     desc: "Workshop on November 15, 2023 teaching members about how to create image classification models. Lecture covered the process of Preprocessing images and passing these images to train convolutional networks.",
     date: "November 15, 2023",
+    link: "https://github.com/UVA-Google-Developer-Student-Club/Nov15ImageClassification",
   },
   {
     img: `/image/projects/Oct15.png`,
@@ -26,6 +27,7 @@ const PROJECTS = [
       "Utilizing HuggingFace Inference APIs to Conduct Sentiment Analysis on Sentences",
     desc: "A funny and relatable novel about the challenges of navigating middle school.",
     date: "October 15, 2023",
+    link: "https://github.com/UVA-Google-Developer-Student-Club/Wed15IntroToML_MNIST",
   },
 ];
 

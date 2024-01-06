@@ -16,6 +16,7 @@ interface BookCardProps {
   price: string;
   offPrice?: string;
   date: string;
+  link: string;
 }
 
 export function BookCard({
@@ -26,6 +27,7 @@ export function BookCard({
   price,
   offPrice,
   date,
+  link,
 }: BookCardProps) {
   return (
     <Card color="transparen t" shadow={false}>
@@ -60,7 +62,7 @@ export function BookCard({
         >
           {date}
         </Typography>
-        <a href="#">
+        <a href={link}>
           <Typography
             variant="h5"
             color="blue-gray"
