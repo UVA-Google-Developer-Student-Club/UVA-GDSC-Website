@@ -40,8 +40,8 @@ export function BookCard({
           className="h-full w-full scale-[1] object-cover object-center"
         />
       </CardHeader> */}
-      <div className="flex relative w-full items-center justify-center mb-8">
-        <a href={link} target="_blank">
+      <a href={link} target="_blank">
+        <div className="flex relative w-full items-center justify-center mb-8">
           <Image
             width={1080}
             height={1080}
@@ -49,8 +49,8 @@ export function BookCard({
             alt={title}
             className="rounded-xl h-3/4 w-3/4 scale-[1] object-cover object-center"
           />
-        </a>
-      </div>
+        </div>
+      </a>
       <CardBody className="p-0">
         <Typography
           color="blue"
