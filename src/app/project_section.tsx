@@ -9,6 +9,7 @@ import {
   Tab,
 } from "@material-tailwind/react";
 import BookCard from "@/components/project-card";
+import { Footer } from "@/components";
 
 const PROJECTS = [
   {
@@ -80,11 +81,12 @@ export function ProjectSection() {
           <BookCard key={key} {...props} />
         ))}
       </div>
-      <div className="grid place-items-center">
+      {/* <div className="grid place-items-center">
         <Button className="mt-32" variant="outlined">
           Show more
         </Button>
-      </div>
+      </div> */}
+      <Footer />
     </section>
   );
 }

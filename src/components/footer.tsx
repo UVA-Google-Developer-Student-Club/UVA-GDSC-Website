@@ -54,7 +54,7 @@ export function Footer() {
           <ul className="flex items-center">
             <div className="flex gap-3 flex-col">
               <a
-                href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info"
+                href="https://gdsc.community.dev/university-of-virginia/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

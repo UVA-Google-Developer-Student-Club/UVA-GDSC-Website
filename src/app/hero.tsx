@@ -107,7 +107,7 @@ function Hero() {
             <p className="text-white">Join the GDSC family of 250+ members</p>
             <div className="flex items-center gap-4 mt-4 mb-36">
               <a
-                href="https://lists.virginia.edu/sympa/subscribe/google_dsc?previous_action=info"
+                href="https://gdsc.community.dev/university-of-virginia/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
