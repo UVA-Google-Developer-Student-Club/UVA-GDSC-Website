@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react'
 
 import FeatureCard from "@/components/feature-card";
@@ -8,57 +10,41 @@ const CORE_TEAM = [
         icon: "/image/headshots/Alexander_Halpern.jpeg",
         title: "Alexander Halpern",
         role: "President, Class of 2026 - \nComputer Science",
-        description:
-        "Explore our educator resources, bulk ordering options, and special teacher discounts.",
     },
     {
         icon: "/image/headshots/Tao_Groves.jpeg",
         title: "Tao Groves",
         role: "Vice President, Class of 2025 - \nComputer Science and Math",
-        description:
-        "Our dedicated customer support team is available to assist you 24 hours a day, 7 days a week.",
     },
     {
         icon: "/image/headshots/TJ_Oosterhous.jpeg",
         title: "TJ Oosterhous",
         role: "Treasurer, Class of 2026 - \nPre-Commerce",
-        description:
-        "We offer fast and reliable shipping, so you can focus on what matters most - your education",
     },
     {
         icon: "/image/headshots/Jason_Chin.jpeg",
         title: "Jason Chin",
         role: "Secretary, Class of 2026 - \nComputer Engineering",
-        description:
-        "We offer fast and reliable shipping, so you can focus on what matters most - your education",
     },
     {
         icon: "/image/headshots/Michael_Regan.jpeg",
         title: "Michael Regan",
         role: "Event Planning, Class of 2026 - \nComputer Science and Statistics",
-        description:
-        "We offer fast and reliable shipping, so you can focus on what matters most - your education",
     },
     {
         icon: "/image/headshots/Ryan_LeKuch.jpeg",
         title: "Ryan LeKuch",
         role: "Marketing, Class of 2026 - \nComputer Science and Business",
-        description:
-        "We offer fast and reliable shipping, so you can focus on what matters most - your education",
     },
     {
         icon: "/image/headshots/Oliver_Buckner.jpeg",
         title: "Oliver Buckner",
         role: "Network Outreach, Class of 2026 - \nPre-Batten and Philosophy",
-        description:
-        "We offer fast and reliable shipping, so you can focus on what matters most - your education",
     },
     {
         icon: "/image/headshots/Vincent_Song.jpeg",
         title: "Vincent Song",
         role: "Webmaster, Class of 2025 - \nComputer Science",
-        description:
-        "We offer fast and reliable shipping, so you can focus on what matters most - your education",
     },
 ];
 
