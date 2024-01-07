@@ -11,6 +11,8 @@ const OTHER_BOOKS = [
     desc: "A classic epic that explores political intrigue and power struggles on a desert planet.",
     price: "$99",
     offPrice: "$79",
+    date: "FAKE",
+    link: "FAKE",
   },
   {
     img: `/image/books/RectangleBig7.svg`,
@@ -19,6 +21,8 @@ const OTHER_BOOKS = [
     desc: "A pioneering cyberpunk novel filled with futuristic technology and hackers.",
     price: "$99",
     offPrice: "$79",
+    date: "FAKE",
+    link: "FAKE",
   },
   {
     img: `/image/books/RectangleBig1.svg`,
@@ -27,6 +31,8 @@ const OTHER_BOOKS = [
     desc: "A timeless adventure through Middle-earth, featuring Bilbo Baggins and his quest.",
     price: "$99",
     offPrice: "$79",
+    date: "FAKE",
+    link: "FAKE",
   },
 ];
 

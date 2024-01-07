@@ -8,6 +8,12 @@ const nextConfig = {
       },
     ],
   },
+  // distDir: "build",
+  // typescript: {
+  //   ignoreBuildErrors: true,
+  // },
+  trailingSlash: true,
+  output: "export",
 };
 
 module.exports = nextConfig;

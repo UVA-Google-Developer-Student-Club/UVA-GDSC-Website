@@ -7,4 +7,4 @@ export * from "./other-book-offers";
 export * from "./carousel-features";
 export * from "./project_section";
 export * from "./get-your-book-from-us";
-export * from "./calendar";
+export * from "./calendar/page";

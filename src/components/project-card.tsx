@@ -13,8 +13,6 @@ interface BookCardProps {
   title: string;
   desc: string;
   category: string;
-  price: string;
-  offPrice?: string;
   date: string;
   link: string;
 }
@@ -24,13 +22,11 @@ export function BookCard({
   category,
   title,
   desc,
-  price,
-  offPrice,
   date,
   link,
 }: BookCardProps) {
   return (
-    <Card color="transparen t" shadow={false}>
+    <Card shadow={false}>
       {/* <CardHeader color="gray" floated={false} className="mx-0 mt-0 mb-6">
         <Image
           width={1080}
@@ -42,7 +38,7 @@ export function BookCard({
       </CardHeader> */}
       <a href={link} target="_blank">
         <div className="flex relative w-full items-center justify-center mb-8">
-          <Image
+          <img
             width={1080}
             height={1080}
             src={img}
@@ -58,10 +54,7 @@ export function BookCard({
         >
           {category}
         </Typography>
-        <Typography
-          color="p"
-          className="mb-2 text-xs !font-semibold text-center"
-        >
+        <Typography className="mb-2 text-xs !font-semibold text-center">
           {date}
         </Typography>
         <a href={link} target="_blank">
@@ -76,18 +69,6 @@ export function BookCard({
         <Typography className="mb-4 font-normal !text-gray-500 text-center">
           {desc}
         </Typography>
-        <div className="flex gap-2">
-          <Typography
-            variant="h5"
-            color="blue-gray"
-            className={offPrice ? "line-through" : ""}
-          >
-            {price}
-          </Typography>
-          <Typography variant="h5" color="red">
-            {offPrice}
-          </Typography>
-        </div>
       </CardBody>
     </Card>
   );

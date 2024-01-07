@@ -73,12 +73,10 @@ export function GetYourBookFromUs() {
     <section className="mt-8 px-8">
       <div className="container mx-auto mb-16 text-center">
         <Typography variant="h2" color="blue-gray" className="mb-4">
-          Club Executives
+          Leadership
         </Typography>
-        <Typography
-          variant="lead"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-5/12"
-        >
+
+        <Typography className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12">
           Meet the team that runs and organizes the Google Developer Student
           Club at UVA!
         </Typography>

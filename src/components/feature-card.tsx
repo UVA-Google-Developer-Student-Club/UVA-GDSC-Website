@@ -3,7 +3,7 @@ import { Typography, Card, CardBody } from "@material-tailwind/react";
 
 interface FeatureCardProps {
   title: string;
-  icon: React.ElementType;
+  icon: string;
   children: React.ReactNode;
 }
 

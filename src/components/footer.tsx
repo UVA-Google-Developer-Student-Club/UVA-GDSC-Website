@@ -58,9 +58,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button variant="outlined" color="gray-400">
-                  Join Our Mailing List
-                </Button>
+                <Button variant="outlined">Join Our Mailing List</Button>
               </a>
             </div>
           </ul>

@@ -104,7 +104,7 @@ function Hero() {
               repeat={Infinity}
               className={inter.className + " text-white font-semi mb-12"}
             />
-            <p className="text-white">Join the GDSC family of 250+ members</p>
+            <p className="text-white">Join our GDSC family of 250+ members</p>
             <div className="flex items-center gap-4 mt-4 mb-36">
               <a
                 href="https://gdsc.community.dev/university-of-virginia/"

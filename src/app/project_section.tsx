@@ -13,7 +13,7 @@ import { Footer } from "@/components";
 
 const PROJECTS = [
   {
-    img: `/image/projects/Nov15.png`,
+    img: "/image/projects/Nov15.png",
     category: "Technical Workshop",
     title:
       "Training an Image Classification Model to Classify Fashion Items using TensorFlow",
@@ -22,7 +22,7 @@ const PROJECTS = [
     link: "https://github.com/UVA-Google-Developer-Student-Club/Nov15ImageClassification",
   },
   {
-    img: `/image/projects/Oct15.png`,
+    img: "/image/projects/Oct15.png",
     category: "Info Session + Technical Workshop",
     title:
       "Utilizing HuggingFace Inference APIs to Conduct Sentiment Analysis on Sentences",
@@ -43,10 +43,7 @@ export function ProjectSection() {
         <Typography variant="h2" color="blue-gray" className="mb-2">
           Projects
         </Typography>
-        <Typography
-          variant="p"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12"
-        >
+        <Typography className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12">
           At the GDSC at UVA, we are committed to providing our members with
           opportunities to learn and grow. We offer a variety of projects
           throughout the semester, ranging from technical workshops to

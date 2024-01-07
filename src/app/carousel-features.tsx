@@ -3,12 +3,12 @@
 import Image from "next/image";
 import { Typography, Carousel } from "@material-tailwind/react";
 
-
 export function CarouselFeatures() {
   return (
     <div className="px-8 py-5">
       <section className="container mx-auto !rounded-lg bg-[url('/image/Background.png')] bg-center py-10 lg:px-16">
-        <Carousel
+        {/* commented out for later */}
+        {/* <Carousel
           transition={{ duration: 1 }}
           nextArrow={() => <></>}
           prevArrow={() => <></>}
@@ -64,7 +64,7 @@ export function CarouselFeatures() {
               </div>
             </div>
           ))}
-        </Carousel>
+        </Carousel> */}
       </section>
     </div>
   );

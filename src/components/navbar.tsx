@@ -8,6 +8,7 @@ import {
 } from "@material-tailwind/react";
 import {
   HomeIcon,
+  InformationCircleIcon,
   CalendarDaysIcon,
   CodeBracketIcon,
   UserGroupIcon,
@@ -42,6 +43,11 @@ const NAV_MENU = [
     name: "Home",
     icon: HomeIcon,
     href: "/",
+  },
+  {
+    name: "Info",
+    icon: InformationCircleIcon,
+    href: "/info",
   },
   {
     name: "Calendar",
