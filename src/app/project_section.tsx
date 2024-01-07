@@ -32,7 +32,7 @@ const PROJECTS = [
   },
 ];
 
-const PROJECTS_TABS = ["Fall 2023"];
+const PROJECTS_TABS = ["Fall 2023", "More", "Coming", "Soon"];
 
 export function ProjectSection() {
   const [activeTab, setActiveTab] = React.useState(PROJECTS_TABS[0]);
@@ -72,18 +72,17 @@ export function ProjectSection() {
             </TabsHeader>
           </Tabs>
         </div>
+        <div className="container mx-auto grid grid-cols-1 items-start gap-x-6 gap-y-12 md:grid-cols-2 xl:grid-cols-3">
+          {PROJECTS.map((props, key) => (
+            <BookCard key={key} {...props} />
+          ))}
+        </div>
+        {/* <div className="grid place-items-center">
+          <Button className="mt-24" variant="outlined">
+            Show more
+          </Button>
+        </div> */}
       </div>
-      <div className="container mx-auto grid grid-cols-1 items-start gap-x-6 gap-y-20 md:grid-cols-2 xl:grid-cols-3">
-        {PROJECTS.map((props, key) => (
-          <BookCard key={key} {...props} />
-        ))}
-      </div>
-      {/* <div className="grid place-items-center">
-        <Button className="mt-32" variant="outlined">
-          Show more
-        </Button>
-      </div> */}
-      <Footer />
     </section>
   );
 }

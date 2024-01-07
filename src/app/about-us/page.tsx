@@ -8,9 +8,7 @@ export default function Page() {
             <br></br>
             <br></br>
             <br></br>
-            <br></br>
             <GetYourBookFromUs />
-            <br></br>
             <br></br>
             <br></br>
             <br></br>

@@ -18,7 +18,7 @@ const FAQS = [
   },
   {
     title: "What kind of workshops will you host?",
-    desc: "We make an effort to host workshops that are relevant to emerging technologies that will beneficial for club members to learn about. This year, our workshops will be focused on working with topics such as Artificial Intelligence, Web Development, Augmented Reality and Web 3.0. Check out the Projects tab above to see what we have done in past workshops.",
+    desc: "We make an effort to host workshops that are relevant to emerging technologies that will be beneficial for club members to learn about. This year, our workshops will be focused on working with topics such as Artificial Intelligence, Web Development, Augmented Reality and Web 3.0. Check out the Projects tab above to see what we have done in past workshops.",
   },
   {
     title: "Can I shop online during the campaign?",
