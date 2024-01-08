@@ -13,6 +13,9 @@ export default function Page() {
       <Mission />
       <Faq />
       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Footer />
     </div>
   );
