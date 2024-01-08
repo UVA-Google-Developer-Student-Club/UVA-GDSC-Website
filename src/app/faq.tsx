@@ -21,12 +21,12 @@ const FAQS = [
     desc: "We make an effort to host workshops that are relevant to emerging technologies that will be beneficial for club members to learn about. This year, our workshops will be focused on working with topics such as Artificial Intelligence, Web Development, Augmented Reality and Web 3.0. Check out the Projects tab above to see what we have done in past workshops.",
   },
   {
-    title: "Can I shop online during the campaign?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
+    title: "What of kind of speaker events will you host?",
+    desc: "We plan on bringing speakers to UVA who can provide members with insight into technology in relation to industry and innovation. Members will hear varying perspectives, from technology executives at large companies, to local UVA alums who have started startups.",
   },
   {
-    title: "What if I can't find a specific book or item I need for school?",
-    desc: "Our Back to School Campaign typically begins in late summer, around July or August, and continues through September. Be sure to check our website and promotional materials for specific dates each year.",
+    title: "What kind of competitions will you host?",
+    desc: "The biggest competition that GDSC will be participating in is Google's National Solution Challenge competition. More info here: https://developers.google.com/community/gdsc-solution-challenge. We are also planning to host small competitions regularly in order to allow members to compete and win prizes. We also hope to host a 24 hour hackathon this semester, and we are excited to see what technological innovations members come up with!",
   },
 ];
 

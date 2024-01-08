@@ -18,21 +18,25 @@ import Executives from "@/components/executives";
 import Mission from "@/components/mission";
 import Alumni from "@/components/alumni";
 
-const PROJECTS_TABS = ["Mission", "Core Team", "Alumni", "Sponsors"];
+const PROJECTS_TABS = ["Core Team", "Alumni", "Sponsors"];
 
 export function GetYourBookFromUs() {
   const [activeTab, setActiveTab] = React.useState(PROJECTS_TABS[0]);
 
   const renderTabContent = () => {
     switch (activeTab) {
-      case "Mission":
-        return <Mission />;
+      // case "Mission":
+      //   return <Mission />;
       case "Core Team":
         return <Executives />;
       case "Alumni":
         return <Alumni />;
       case "Sponsors":
-        return <div>Sponsors Tab Content</div>;
+        return (
+          <div className="flex w-full items-center justify-center mt-12">
+            Coming Soon!
+          </div>
+        );
       default:
         return null;
     }

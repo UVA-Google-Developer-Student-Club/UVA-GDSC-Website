@@ -49,7 +49,7 @@ export function ProjectSection() {
           throughout the semester, ranging from technical workshops to
           hackathons.
         </Typography>
-        <div className="mt-12 flex items-center justify-center">
+        <div className="mt-12 mb-8 flex items-center justify-center">
           <Tabs value={activeTab} className="w-full lg:w-8/12">
             <TabsHeader
               className="h-12 bg-transparent"

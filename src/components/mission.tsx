@@ -5,10 +5,13 @@ import { Typography } from "@material-tailwind/react";
 
 const Mission = () => {
   return (
-    <div className="container mx-auto mb-8 text-center max-w-[900px]">
-      <Typography variant="h3" color="blue-gray" className="mt-8 mb-4">
-        Our Mission: Help Students Bridge the Gap between Theory and Practice
-        using Google Tech
+    <div className="container mx-auto mb-12 text-center max-w-[900px]">
+      <Typography variant="h2" color="blue-gray" className="mt-8 mb-4">
+        Our Mission
+      </Typography>
+      <Typography variant="h3" color="darkgray" className="mt-8 mb-4 text-xl">
+        Help Students Bridge the Gap between Theory and Practice using Google
+        Technology
       </Typography>
       <Typography className="mx-auto w-full px-4 text-gray-700 lg:w-5/6">
         <p>
