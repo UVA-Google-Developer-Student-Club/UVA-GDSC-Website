@@ -7,8 +7,6 @@ export default function Page() {
       <Navbar />
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
       <ProjectSection />
       <Footer />
     </div>
