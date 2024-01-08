@@ -32,7 +32,7 @@ const PROJECTS = [
   },
 ];
 
-const PROJECTS_TABS = ["Fall 2023", "More", "Coming", "Soon"];
+const PROJECTS_TABS = ["Fall 2023", "Upcoming"];
 
 export function ProjectSection() {
   const [activeTab, setActiveTab] = React.useState(PROJECTS_TABS[0]);
@@ -43,10 +43,7 @@ export function ProjectSection() {
         <Typography variant="h2" color="blue-gray" className="mb-4">
           Projects
         </Typography>
-        <Typography
-          variant="p"
-          className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 mb-8"
-        >
+        <Typography className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 mb-8">
           At the GDSC at UVA, we are committed to providing our members with
           opportunities to learn and grow. We offer a variety of projects
           throughout the semester, ranging from technical workshops to
@@ -54,13 +51,20 @@ export function ProjectSection() {
         </Typography>
         <div className="mt-8 flex items-center justify-center">
           <Tabs value={activeTab} className="w-full lg:w-8/12">
-            <TabsHeader className="h-12" indicatorProps={{ className: "!bg-gray-400 rounded-lg" }}>
+            <TabsHeader
+              className="h-12"
+              indicatorProps={{ className: "!bg-gray-400 rounded-lg" }}
+            >
               {PROJECTS_TABS.map((book) => (
                 <Tab
                   key={book}
                   value={book}
                   className={`!font-medium capitalize transition-all duration-300
-                    ${activeTab === book ? "text-gray-100" : "text-gray-500 capitalize"}
+                    ${
+                      activeTab === book
+                        ? "text-gray-100"
+                        : "text-gray-500 capitalize"
+                    }
                   `}
                   onClick={() => setActiveTab(book)}
                 >

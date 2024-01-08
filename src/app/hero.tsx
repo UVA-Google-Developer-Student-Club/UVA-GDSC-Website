@@ -80,7 +80,7 @@ function Hero() {
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
-                "The Premiere CS Club at UVA. 🥇",
+                "The Premier CS Club at UVA. 🥇",
                 3000, // wait 1s before replacing "Mice" with "Hamsters"
                 "We have workshops. ⚒️",
                 3000,
@@ -97,7 +97,7 @@ function Hero() {
               speed={5}
               style={{
                 display: "inline-block",
-                fontFamily: "Inter",
+                fontFamily: "Arial",
                 fontSize: "2rem",
                 fontWeight: 600,
               }}
@@ -106,6 +106,7 @@ function Hero() {
             />
             <p className="text-white">Join our GDSC family of 250+ members</p>
             <div className="flex items-center gap-4 mt-4 mb-36">
+              <img src="/image/uva_logo.png" className="w-12" />
               <a
                 href="https://gdsc.community.dev/university-of-virginia/"
                 target="_blank"
@@ -115,6 +116,7 @@ function Hero() {
                   Join Our Mailing List
                 </Button>
               </a>
+              <img src="/image/uva_logo.png" className="w-12" />
             </div>
           </div>
         </div>

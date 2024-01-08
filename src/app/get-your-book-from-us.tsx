@@ -18,7 +18,7 @@ import Executives from "@/components/executives";
 import Mission from "@/components/mission";
 import Alumni from "@/components/alumni";
 
-const PROJECTS_TABS = ["Core Team", "Alumni", "Sponsors"];
+const PROJECTS_TABS = ["Core Team", "Alumni"];
 
 export function GetYourBookFromUs() {
   const [activeTab, setActiveTab] = React.useState(PROJECTS_TABS[0]);
@@ -31,12 +31,12 @@ export function GetYourBookFromUs() {
         return <Executives />;
       case "Alumni":
         return <Alumni />;
-      case "Sponsors":
-        return (
-          <div className="flex w-full items-center justify-center mt-12">
-            Coming Soon!
-          </div>
-        );
+      // case "Sponsors":
+      //   return (
+      //     <div className="flex w-full items-center justify-center mt-12">
+      //       Coming Soon!
+      //     </div>
+      //   );
       default:
         return null;
     }
