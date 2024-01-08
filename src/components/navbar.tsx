@@ -102,12 +102,14 @@ export function Navbar() {
       className="fixed top-0 z-50 border-0"
     >
       <div className="container mx-auto flex items-center justify-between">
-        <div>
-          <img
-            src="/image/uvagdsclogo_white.png"
-            style={{ width: "48x", height: "48px" }}
-          />
-        </div>
+        <a href="/">
+          <div>
+            <img
+              src="/image/uvagdsclogo_white.png"
+              style={{ width: "48x", height: "48px" }}
+            />
+          </div>
+        </a>
         <ul
           className={`hidden items-center gap-6 lg:flex "text-white"
           }`}
