@@ -5,15 +5,15 @@ import { Typography } from "@material-tailwind/react";
 
 const Mission = () => {
   return (
-    <div className="container mx-auto mb-12 text-center max-w-[900px]">
-      <Typography variant="h2" className="mt-8 mb-4">
+    <div className="container flex flex-col items-start mx-auto mb-12 text-left max-w-[900px] px-6">
+      <Typography variant="h2" className="w-full text-center mt-8">
         Our Mission
       </Typography>
-      <Typography variant="h3" className="mt-8 mb-4 text-xl">
+      <Typography variant="h3" className="mt-8 px-4 mb-4 text-xl">
         Help Students Bridge the Gap between Theory and Practice using Google
         Technology
       </Typography>
-      <div className="mx-auto w-full px-4 text-gray-700 lg:w-5/6">
+      <div className="text-left px-4 text-gray-700">
         <p>
           At UVA Google Developer Student Club, we&apos;re dedicated to
           empowering students to make a tangible impact before they graduate. We
@@ -28,20 +28,20 @@ const Mission = () => {
           following:
         </p>
         <br />
-        <ol className="pl-6">
+        <ol className="list-decimal pl-4" type="1">
           <li>
-            <Typography>
-              1) Free training sessions on Google developer technologies,
-              including Firebase, TensorFlow, Google Cloud Platform, and
-              Flutter, accessible to all our members.
-            </Typography>
+            {/* <Typography> */}
+            Free training sessions on Google developer technologies, including
+            Firebase, TensorFlow, Google Cloud Platform, and Flutter, accessible
+            to all our members.
+            {/* </Typography> */}
           </li>
           <li>
-            <Typography>
-              2) Engaging opportunities such as Google&apos;s annual Solution
-              Challenge, where you can contribute to projects that benefit our
-              local Charlottesville community or the world beyond.
-            </Typography>
+            {/* <Typography> */}
+            Engaging opportunities such as Google&apos;s annual Solution
+            Challenge, where you can contribute to projects that benefit our
+            local Charlottesville community or the world beyond.
+            {/* </Typography> */}
           </li>
         </ol>
       </div>

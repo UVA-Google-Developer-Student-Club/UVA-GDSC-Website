@@ -50,14 +50,14 @@ const NAV_MENU = [
     href: "/info",
   },
   {
+    name: "Events",
+    icon: CodeBracketIcon,
+    href: "/events",
+  },
+  {
     name: "Calendar",
     icon: CalendarDaysIcon,
     href: "/calendar",
-  },
-  {
-    name: "Projects",
-    icon: CodeBracketIcon,
-    href: "/projects",
   },
   {
     name: "About Us",

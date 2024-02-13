@@ -18,7 +18,7 @@ import Executives from "@/components/executives";
 import Mission from "@/components/mission";
 import Alumni from "@/components/alumni";
 
-const PROJECTS_TABS = ["Core Team", "Alumni"];
+const PROJECTS_TABS = ["Leadership", "Alumni"];
 
 export function GetYourBookFromUs() {
   const [activeTab, setActiveTab] = React.useState(PROJECTS_TABS[0]);
@@ -27,7 +27,7 @@ export function GetYourBookFromUs() {
     switch (activeTab) {
       // case "Mission":
       //   return <Mission />;
-      case "Core Team":
+      case "Leadership":
         return <Executives />;
       case "Alumni":
         return <Alumni />;

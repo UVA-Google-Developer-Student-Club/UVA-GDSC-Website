@@ -14,8 +14,6 @@ export default function Page() {
       <Faq />
       <br></br>
       <br></br>
-      <br></br>
-      <br></br>
       <Footer />
     </div>
   );
