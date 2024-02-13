@@ -13,6 +13,15 @@ import { Footer } from "@/components";
 
 const EVENTS = [
   {
+    img: `/image/events/Feb12.png`,
+    category: "Info Session",
+    title:
+      "UVA Solution Challenge Introductory Meeting",
+    desc: "Kickstarting the UVA Solution Challenge where students will be working in teams to try and solve a critical problem that exists in the local Charlottesville area that relates to the 17 United Nations Sustainable Development Goals.",
+    date: "Februrary 12, 2024",
+    link: "https://uva-gdsc-solution-challenge.devpost.com",
+  },
+  {
     img: `/image/events/Nov15.png`,
     category: "Technical Workshop",
     title:
