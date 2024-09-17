@@ -15,9 +15,9 @@ const Mission = () => {
       </Typography>
       <div className="text-left px-4 text-gray-700">
         <p>
-          At UVA Google Developer Student Club, we&apos;re dedicated to
-          empowering students to make a tangible impact before they graduate. We
-          firmly believe in the transformative potential of Google Developer
+          At UVA Google Developer Group, we&apos;re dedicated to empowering
+          students to make a tangible impact before they graduate. We firmly
+          believe in the transformative potential of Google Developer
           technologies, enabling aspiring developers to translate their ideas
           into real-world applications.
         </p>

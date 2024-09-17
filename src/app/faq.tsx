@@ -13,8 +13,8 @@ const FAQS = [
     desc: "As of now, club meetings occur every other Wednesday at 7 p.m. in Clark 107. Please join the mailing list using the button in the footer for more up-to-date information.",
   },
   {
-    title: "What kinds of events activities do GDSC members participate in?",
-    desc: "As a member of the GDSC at UVA, will have the opportunity to participate in a variety of different events, primarily: technical workshops, speaker events, competitions, and social events",
+    title: "What kinds of events activities do GDG members participate in?",
+    desc: "As a member of the GDG at UVA, will have the opportunity to participate in a variety of different events, primarily: technical workshops, speaker events, competitions, and social events",
   },
   {
     title: "What kind of workshops will you host?",
@@ -26,7 +26,7 @@ const FAQS = [
   },
   {
     title: "What kind of competitions will you host?",
-    desc: "The biggest competition that GDSC will be participating in is Google's National Solution Challenge competition. More info here: https://developers.google.com/community/gdsc-solution-challenge. We are also planning to host small competitions regularly in order to allow members to compete and win prizes. We also hope to host a 24 hour hackathon this semester, and we are excited to see what technological innovations members come up with!",
+    desc: "The biggest competition that GDG will be participating in is Google's National Solution Challenge competition. More info here: https://developers.google.com/community/gdsc-solution-challenge. We are also planning to host small competitions regularly in order to allow members to compete and win prizes. We also hope to host a 24 hour hackathon this semester, and we are excited to see what technological innovations members come up with!",
   },
 ];
 

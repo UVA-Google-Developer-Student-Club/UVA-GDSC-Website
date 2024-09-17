@@ -82,8 +82,8 @@ const Alumni = () => {
           variant="lead"
           className="mx-auto w-full px-4 text-gray-500 lg:w-5/6"
         >
-          Our past GDSC executive team that have graduated from the University
-          of Virginia!
+          Our past GDG executive team that have graduated from the University of
+          Virginia!
         </Typography>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-8 md:grid-cols-2 lg:grid-cols-3">

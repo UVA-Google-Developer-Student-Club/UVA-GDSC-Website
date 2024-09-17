@@ -32,20 +32,20 @@ function Hero() {
         {/* <div className="bg-green-300">
           <img
             src="/image/maildigital-cinema-059web_2.png"
-            alt="gdsclogo"
+            alt="gdglogo"
             className="absolute m-auto h-5/6 top-0 left-0 right-0 bottom-0"
           />
         </div> */}
         <img
           src="/image/lecture_no_screen_low_message.png"
-          alt="gdsclogo"
+          alt="gdglogo"
           style={{ height: "40%" }}
           className="animate-fade-up animate-duration-[2000ms] animate-delay-500 animate-ease-linear absolute bottom-0 right-10 block hidden sm:hidden md:hidden lg:block xl:block 2xl:block"
         />
 
         {/* <img
           src="/image/lecture_no_screen_2.png"
-          alt="gdsclogo"
+          alt="gdglogo"
           className="w-1/5 absolute bottom-0 left-0"
         /> */}
 
@@ -53,13 +53,13 @@ function Hero() {
           <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
             {/* <img
               src="/image/gdscbanner.png"
-              alt="gdsclogo"
+              alt="gdglogo"
               className="w-1/2 rounded-3xl"
             /> */}
 
             <img
-              src="/image/UVA GDSC Logo.png"
-              alt="gdsclogo"
+              src="/image/uvagdglogo_main.png"
+              alt="gdglogo"
               className="mt-24 w-1/3 rounded-3xl"
             />
 
@@ -104,16 +104,16 @@ function Hero() {
               repeat={Infinity}
               className={inter.className + " text-white font-semi mb-12"}
             />
-            <p className="text-white">Join our GDSC family of 250+ members</p>
+            <p className="text-white">Join our GDG family of 600+ members</p>
             <div className="flex items-center gap-4 mt-4 mb-36">
               <img src="/image/uva_logo.png" className="w-12" />
               <a
-                href="https://gdsc.community.dev/university-of-virginia/"
+                href="https://gdg.community.dev/gdg-on-campus-university-of-virginia-charlottesville-united-states/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button variant="gradient" color="white">
-                  Join Our Mailing List
+                  Join Our Community
                 </Button>
               </a>
               <img src="/image/uva_logo.png" className="w-12" />

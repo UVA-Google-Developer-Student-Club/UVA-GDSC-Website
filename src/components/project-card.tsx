@@ -43,10 +43,11 @@ export function BookCard({
             height={1080}
             src={img}
             alt={title}
-            className="rounded-xl h-3/4 w-3/4 scale-[1] object-cover object-center"
+            className="rounded-xl w-[300px] h-[300px] object-cover object-center"
           />
         </div>
       </a>
+
       <CardBody className="p-0">
         <Typography
           color="blue"

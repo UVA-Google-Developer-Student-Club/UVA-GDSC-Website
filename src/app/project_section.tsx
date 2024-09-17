@@ -10,16 +10,43 @@ import {
 } from "@material-tailwind/react";
 import BookCard from "@/components/project-card";
 import { Footer } from "@/components";
+// https://uvagdsc.devpost.com/
 
 const EVENTS = [
   {
+    img: `/image/events/Sept092024.png`,
+    category: "Interest Meeting",
+    title: "Interest Meeting 2024",
+
+    desc: "Join us for an Interest Meeting where we will explain what the GDSC (Google Developer Student Club) does and how you can get involved. Learn more about our upcoming events and how you can contribute to impactful projects.",
+    date: "February 12, 2024",
+    link: "https://gdg.community.dev/gdg-on-campus-university-of-virginia-charlottesville-united-states/",
+  },
+  {
+    img: `/image/events/SolutionChallenge2024.png`,
+    category: "Hackathon",
+    title: "Solution Challenge Hackathon",
+
+    desc: "This is the GDSC at UVA's version of Google's National Solution Challenge competition. Students will work in teams to solve critical problems in the Charlottesville area, focusing on the 17 United Nations Sustainable Development Goals.",
+    date: "February 12, 2024",
+    link: "https://uvagdsc.devpost.com/",
+  },
+  {
+    img: `/image/events/Mar112024.jpg`,
+    category: "Speaker Event",
+    title: "Speaker Event with Eric Stein and Mario Cortes",
+
+    desc: "Speaker session with Eric Stein and Mario Cortes, both Software Engineers at Google and UVA alumni. They will be discussing their experiences working at Google and how they got to where they are today. The event is in partnership with the GDSC at NYU.",
+    date: "Februrary 12, 2024",
+    link: "https://www.youtube.com/watch?v=9ONodI3HdQgm",
+  },
+  {
     img: `/image/events/Feb12.png`,
     category: "Info Session",
-    title:
-      "UVA Solution Challenge Introductory Meeting",
+    title: "UVA Solution Challenge Introductory Meeting",
     desc: "Kickstarting the UVA Solution Challenge where students will be working in teams to try and solve a critical problem that exists in the local Charlottesville area that relates to the 17 United Nations Sustainable Development Goals.",
     date: "Februrary 12, 2024",
-    link: "https://uva-gdsc-solution-challenge.devpost.com",
+    link: "https://uvagdsc.devpost.com/",
   },
   {
     img: `/image/events/Nov15.png`,
@@ -31,7 +58,7 @@ const EVENTS = [
     link: "https://github.com/UVA-Google-Developer-Student-Club/Nov15ImageClassification",
   },
   {
-    img: `/image/events/Oct25.png`,
+    img: `/image/events/Oct252023.jpg`,
     category: "Technical Workshop",
     title: "Technical Interview Workshop with Google Engineers",
     desc: "Google Engineers came to UVA to teach GDSC members about how to prepare for the technical interview process and to provide insight into the interview process at Google.",
@@ -61,7 +88,7 @@ export function EventSection() {
           Events
         </Typography>
         <Typography className="mx-auto w-full px-4 !text-gray-500 lg:w-9/12 mb-8">
-          At the GDSC at UVA, we are committed to providing our members with
+          At the GDG at UVA, we are committed to providing our members with
           opportunities to learn and grow. We host a variety of workshops and
           speaker events throughout the semester, ranging from technical
           workshops with Google Recruiters to presentations from world-renowned

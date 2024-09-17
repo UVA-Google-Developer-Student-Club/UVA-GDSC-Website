@@ -1,1 +1,1 @@
-UVA Google Developer Student Clubs Website 2.0
+UVA Google Developer Groups Website 2.0

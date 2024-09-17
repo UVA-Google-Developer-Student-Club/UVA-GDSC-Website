@@ -105,8 +105,8 @@ export function Navbar() {
         <a href="/">
           <div>
             <img
-              src="/image/uvagdsclogo_white.png"
-              style={{ width: "48x", height: "48px" }}
+              src="/image/uvagdglogo.png"
+              style={{ width: "48x", height: "54px" }}
             />
           </div>
         </a>

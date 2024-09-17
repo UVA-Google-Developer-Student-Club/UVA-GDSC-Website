@@ -10,9 +10,9 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "UVA Google Developer Student Clubs",
+  title: "UVA Google Developer Groups",
   description:
-    "The University of Virginia's Google Developer Student Clubs Website 2.0",
+    "The University of Virginia's Google Developer Groups Website 2.0",
 };
 
 export default function RootLayout({

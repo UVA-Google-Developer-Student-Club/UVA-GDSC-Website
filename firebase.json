@@ -1,10 +1,18 @@
 {
   "hosting": {
     "public": "out",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "redirects": [
+      {
+        "source": "/discord",
+        "destination": "https://discord.gg/7Jt3P2CxEH",
+        "type": 301
+      },
+      {
+        "source": "/join",
+        "destination": "https://gdsc.community.dev/university-of-virginia/",
+        "type": 301
+      }
     ]
   }
 }

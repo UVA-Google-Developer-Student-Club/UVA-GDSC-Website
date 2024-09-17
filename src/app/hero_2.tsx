@@ -22,19 +22,19 @@ function Hero() {
         <div className="bg-green-300">
           <img
             src="/image/maildigital-cinema-059web_2.png"
-            alt="gdsclogo"
+            alt="gdglogo"
             className="absolute m-auto h-5/6 top-0 left-0 right-0 bottom-0"
           />
         </div>
         <img
           src="/image/lecture_no_screen.png"
-          alt="gdsclogo"
+          alt="gdglogo"
           className="w-1/3 absolute bottom-0 right-10"
         />
 
         <img
           src="/image/lecture_no_screen_2.png"
-          alt="gdsclogo"
+          alt="gdglogo"
           className="w-1/5 absolute bottom-0 left-0"
         />
 
@@ -42,13 +42,13 @@ function Hero() {
           <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
             {/* <img
               src="/image/gdscbanner.png"
-              alt="gdsclogo"
+              alt="gdglogo"
               className="w-1/2 rounded-3xl"
             /> */}
 
             <img
               src="/image/UVA GDSC Logo.svg"
-              alt="gdsclogo"
+              alt="gdglogo"
               className="mt-24 w-1/2 rounded-3xl"
             />
 

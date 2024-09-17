@@ -5,7 +5,7 @@ const LINKS = [
   {
     name: "Google",
     icon: "bi-google",
-    url: "https://gdsc.community.dev/university-of-virginia/",
+    url: "https://gdg.community.dev/gdg-on-campus-university-of-virginia-charlottesville-united-states/",
   },
   {
     name: "YouTube",
@@ -31,11 +31,11 @@ export function HomeFooter() {
     <footer className="absolute bottom-0 z-10 w-full">
       <div className="container mx-auto">
         <div className="grid items-center justify-center gap-y-4 gap-x-8 border-blue-gray-50 py-6 xl:justify-between grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
-        <Typography className="text-center font-normal !text-gray-700">
-            &copy; {CURRENT_YEAR} UVA Google Developer Student Club
+          <Typography className="text-center font-normal !text-gray-700">
+            &copy; {CURRENT_YEAR} UVA Google Developer Groups
           </Typography>
           <ul className="flex flex-wrap items-center justify-center">
-          {LINKS.map((link) => (
+            {LINKS.map((link) => (
               <li key={link.name}>
                 <a
                   href={link.url}
@@ -52,8 +52,7 @@ export function HomeFooter() {
             ))}
           </ul>
           <ul className="flex items-center">
-            <div className="flex gap-3 flex-col">
-            </div>
+            <div className="flex gap-3 flex-col"></div>
           </ul>
         </div>
       </div>
